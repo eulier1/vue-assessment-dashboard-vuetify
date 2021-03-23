@@ -119,8 +119,8 @@ export default {
 
 .custom-dark-navigation-drawer
 {
-  background:#24292c;
-  color: #ebecec;
+  background:#24292c !important;
+  color: #ebecec !important;
 }
 
 .wrapper-container  {
