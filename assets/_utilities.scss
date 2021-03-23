@@ -1,0 +1,75 @@
+h1 {
+    color: #282d30
+  }
+  
+.custom-card-divider {
+  border-right-color: #e0e0e0;
+  border-right-style: solid;
+  border-right-width: 3px;
+}
+
+.custom-card-outline {
+  border-color: #e0e0e0;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 0px !important;
+}
+
+.custom-button-outline {
+  border-color: #818385;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0px !important;
+}
+
+.custom-subtitle {
+  font-size: 0.9rem;
+  letter-spacing: inherit;
+}
+
+.custom-image-placeholder {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #f7f7f7;
+  border-width: 11px;
+}
+
+.flex {
+    display: flex;
+    
+    &.gap-30 {
+      gap: 30px;
+    }
+    &.gap-20 {
+      gap: 20px;
+    }
+    &.jc-center {
+      justify-content: center;
+    }
+    &.flex-wrap {
+      flex-wrap: wrap;
+    }
+
+    &.ai-center {
+      align-items: center;
+    }
+}
+
+.letter-spacing__normal {
+  letter-spacing: normal
+}
+
+.fill-column {
+  height: 100%;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.text-transform__initial {
+  text-transform: initial;
+}
+    
